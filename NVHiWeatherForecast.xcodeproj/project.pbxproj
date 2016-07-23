@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E93EDB71D4220550064738A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E93EDB61D4220550064738A /* AppDelegate.swift */; };
+		0E93EDB91D4220550064738A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E93EDB81D4220550064738A /* ViewController.swift */; };
+		0E93EDBC1D4220550064738A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E93EDBA1D4220550064738A /* Main.storyboard */; };
+		0E93EDBE1D4220550064738A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E93EDBD1D4220550064738A /* Assets.xcassets */; };
+		0E93EDC11D4220550064738A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E93EDBF1D4220550064738A /* LaunchScreen.storyboard */; };
+		0E93EDCC1D42298B0064738A /* Blood.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E93EDC91D42298B0064738A /* Blood.png */; };
+		0E93EDCD1D42298B0064738A /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E93EDCA1D42298B0064738A /* Moon.png */; };
+		0E93EDCE1D42298B0064738A /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E93EDCB1D42298B0064738A /* Sun.png */; };
+		0ED238DC1D4322C500AE9980 /* 52588__eric5335__crickets.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ED238DB1D4322C500AE9980 /* 52588__eric5335__crickets.wav */; };
+		0ED238DE1D43243800AE9980 /* 338677__natemarler__birds-morning.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ED238DD1D43243800AE9980 /* 338677__natemarler__birds-morning.wav */; };
+		0ED238E01D43275700AE9980 /* 256784__radwoc__atmosphere-evening-birds.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ED238DF1D43275700AE9980 /* 256784__radwoc__atmosphere-evening-birds.wav */; };
+		0ED238E91D43541800AE9980 /* London.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ED238E11D43541800AE9980 /* London.jpg */; };
+		0ED238EB1D43541800AE9980 /* Beijing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ED238E31D43541800AE9980 /* Beijing.jpg */; };
+		0ED238EC1D43541800AE9980 /* tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ED238E41D43541800AE9980 /* tokyo.jpg */; };
+		0ED238ED1D43541800AE9980 /* Hue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ED238E51D43541800AE9980 /* Hue.jpg */; };
+		0ED238EE1D43541800AE9980 /* NewYork.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0ED238E61D43541800AE9980 /* NewYork.jpeg */; };
+		0ED238EF1D43541800AE9980 /* danang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ED238E71D43541800AE9980 /* danang.jpg */; };
+		0ED238F01D43541800AE9980 /* hochiminh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ED238E81D43541800AE9980 /* hochiminh.jpg */; };
+		0ED238F21D435D5400AE9980 /* hanoi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ED238F11D435D5400AE9980 /* hanoi.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E93EDB31D4220550064738A /* NVHiWeatherForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NVHiWeatherForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E93EDB61D4220550064738A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E93EDB81D4220550064738A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E93EDBB1D4220550064738A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E93EDBD1D4220550064738A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E93EDC01D4220550064738A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E93EDC21D4220550064738A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E93EDC91D42298B0064738A /* Blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blood.png; sourceTree = "<group>"; };
+		0E93EDCA1D42298B0064738A /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon.png; sourceTree = "<group>"; };
+		0E93EDCB1D42298B0064738A /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
+		0ED238DB1D4322C500AE9980 /* 52588__eric5335__crickets.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 52588__eric5335__crickets.wav; sourceTree = "<group>"; };
+		0ED238DD1D43243800AE9980 /* 338677__natemarler__birds-morning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "338677__natemarler__birds-morning.wav"; sourceTree = "<group>"; };
+		0ED238DF1D43275700AE9980 /* 256784__radwoc__atmosphere-evening-birds.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "256784__radwoc__atmosphere-evening-birds.wav"; sourceTree = "<group>"; };
+		0ED238E11D43541800AE9980 /* London.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = London.jpg; sourceTree = "<group>"; };
+		0ED238E31D43541800AE9980 /* Beijing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beijing.jpg; sourceTree = "<group>"; };
+		0ED238E41D43541800AE9980 /* tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokyo.jpg; sourceTree = "<group>"; };
+		0ED238E51D43541800AE9980 /* Hue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hue.jpg; sourceTree = "<group>"; };
+		0ED238E61D43541800AE9980 /* NewYork.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NewYork.jpeg; sourceTree = "<group>"; };
+		0ED238E71D43541800AE9980 /* danang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = danang.jpg; sourceTree = "<group>"; };
+		0ED238E81D43541800AE9980 /* hochiminh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hochiminh.jpg; sourceTree = "<group>"; };
+		0ED238F11D435D5400AE9980 /* hanoi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hanoi.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E93EDB01D4220550064738A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E93EDAA1D4220550064738A = {
+			isa = PBXGroup;
+			children = (
+				0E93EDB51D4220550064738A /* NVHiWeatherForecast */,
+				0E93EDB41D4220550064738A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E93EDB41D4220550064738A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E93EDB31D4220550064738A /* NVHiWeatherForecast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E93EDB51D4220550064738A /* NVHiWeatherForecast */ = {
+			isa = PBXGroup;
+			children = (
+				0E93EDB61D4220550064738A /* AppDelegate.swift */,
+				0E93EDB81D4220550064738A /* ViewController.swift */,
+				0E93EDBA1D4220550064738A /* Main.storyboard */,
+				0E93EDBD1D4220550064738A /* Assets.xcassets */,
+				0ED238DA1D43211100AE9980 /* Resource */,
+				0E93EDC81D42298B0064738A /* Background Images */,
+				0E93EDBF1D4220550064738A /* LaunchScreen.storyboard */,
+				0E93EDC21D4220550064738A /* Info.plist */,
+			);
+			path = NVHiWeatherForecast;
+			sourceTree = "<group>";
+		};
+		0E93EDC81D42298B0064738A /* Background Images */ = {
+			isa = PBXGroup;
+			children = (
+				0ED238F11D435D5400AE9980 /* hanoi.jpg */,
+				0ED238E11D43541800AE9980 /* London.jpg */,
+				0ED238E31D43541800AE9980 /* Beijing.jpg */,
+				0ED238E41D43541800AE9980 /* tokyo.jpg */,
+				0ED238E51D43541800AE9980 /* Hue.jpg */,
+				0ED238E61D43541800AE9980 /* NewYork.jpeg */,
+				0ED238E71D43541800AE9980 /* danang.jpg */,
+				0ED238E81D43541800AE9980 /* hochiminh.jpg */,
+				0E93EDC91D42298B0064738A /* Blood.png */,
+				0E93EDCA1D42298B0064738A /* Moon.png */,
+				0E93EDCB1D42298B0064738A /* Sun.png */,
+			);
+			path = "Background Images";
+			sourceTree = "<group>";
+		};
+		0ED238DA1D43211100AE9980 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0ED238DF1D43275700AE9980 /* 256784__radwoc__atmosphere-evening-birds.wav */,
+				0ED238DD1D43243800AE9980 /* 338677__natemarler__birds-morning.wav */,
+				0ED238DB1D4322C500AE9980 /* 52588__eric5335__crickets.wav */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E93EDB21D4220550064738A /* NVHiWeatherForecast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E93EDC51D4220550064738A /* Build configuration list for PBXNativeTarget "NVHiWeatherForecast" */;
+			buildPhases = (
+				0E93EDAF1D4220550064738A /* Sources */,
+				0E93EDB01D4220550064738A /* Frameworks */,
+				0E93EDB11D4220550064738A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NVHiWeatherForecast;
+			productName = NVHiWeatherForecast;
+			productReference = 0E93EDB31D4220550064738A /* NVHiWeatherForecast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E93EDAB1D4220550064738A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MobileSoftware;
+				TargetAttributes = {
+					0E93EDB21D4220550064738A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0E93EDAE1D4220550064738A /* Build configuration list for PBXProject "NVHiWeatherForecast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E93EDAA1D4220550064738A;
+			productRefGroup = 0E93EDB41D4220550064738A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E93EDB21D4220550064738A /* NVHiWeatherForecast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E93EDB11D4220550064738A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED238ED1D43541800AE9980 /* Hue.jpg in Resources */,
+				0ED238DC1D4322C500AE9980 /* 52588__eric5335__crickets.wav in Resources */,
+				0ED238F01D43541800AE9980 /* hochiminh.jpg in Resources */,
+				0ED238EF1D43541800AE9980 /* danang.jpg in Resources */,
+				0ED238EE1D43541800AE9980 /* NewYork.jpeg in Resources */,
+				0ED238E91D43541800AE9980 /* London.jpg in Resources */,
+				0ED238F21D435D5400AE9980 /* hanoi.jpg in Resources */,
+				0ED238E01D43275700AE9980 /* 256784__radwoc__atmosphere-evening-birds.wav in Resources */,
+				0ED238EC1D43541800AE9980 /* tokyo.jpg in Resources */,
+				0E93EDCE1D42298B0064738A /* Sun.png in Resources */,
+				0E93EDCC1D42298B0064738A /* Blood.png in Resources */,
+				0E93EDC11D4220550064738A /* LaunchScreen.storyboard in Resources */,
+				0ED238EB1D43541800AE9980 /* Beijing.jpg in Resources */,
+				0E93EDCD1D42298B0064738A /* Moon.png in Resources */,
+				0ED238DE1D43243800AE9980 /* 338677__natemarler__birds-morning.wav in Resources */,
+				0E93EDBE1D4220550064738A /* Assets.xcassets in Resources */,
+				0E93EDBC1D4220550064738A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E93EDAF1D4220550064738A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E93EDB91D4220550064738A /* ViewController.swift in Sources */,
+				0E93EDB71D4220550064738A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E93EDBA1D4220550064738A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E93EDBB1D4220550064738A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E93EDBF1D4220550064738A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E93EDC01D4220550064738A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E93EDC31D4220550064738A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E93EDC41D4220550064738A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E93EDC61D4220550064738A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NVHiWeatherForecast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.mobilesoftware.NVHiWeatherForecast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E93EDC71D4220550064738A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NVHiWeatherForecast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.mobilesoftware.NVHiWeatherForecast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E93EDAE1D4220550064738A /* Build configuration list for PBXProject "NVHiWeatherForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E93EDC31D4220550064738A /* Debug */,
+				0E93EDC41D4220550064738A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E93EDC51D4220550064738A /* Build configuration list for PBXNativeTarget "NVHiWeatherForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E93EDC61D4220550064738A /* Debug */,
+				0E93EDC71D4220550064738A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E93EDAB1D4220550064738A /* Project object */;
+}
